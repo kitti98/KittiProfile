@@ -1,2 +1,31 @@
-# KittiProfile
-An example for uploading python packages to pypi.org
+# (Kitti Profile) เป็นตัวอย่างการอัพโหลด Package ไปยัง pypi.org
+
+PyPi: https://pypi.org/project/kittiprofile/
+
+เป็น Package ที่อธิบาย Profile ส่วนตัว
+
+### วิธีติดตั้ง
+
+เปิด CMD / Terminal
+
+```python
+pip install kittiprofile
+```
+
+### วิธีใช้งานแพ็คเพจนี้
+
+- เปิด IDLE ขึ้นมาแล้วพิมพ์...
+
+```python
+my = Profile('Kong')
+my.company = 'PSU'
+my.hobby = ['Fishing ','Running','Sleeping']
+print(my.name)
+my.show_email()
+my.show_myart()
+my.show_hobby()
+```
+
+<!-- พัฒนาโดย: ลุงวิศวกร สอนคำนวณ
+FB: https://www.facebook.com/UncleEngineer
+YouTube: https://www.youtube.com/UncleEngineer -->
