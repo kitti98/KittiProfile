@@ -25,6 +25,35 @@ class Profile():
         ____|_       ___|   |___.' 
         /_/_____/____/_______|
         '''
+        self.art2 = '''
+                              ,---.
+                             /    |
+                            /     |
+        Gandalf            /      |
+                          /       |
+                    ___,'         |
+                   <  -'          :
+                    `-.__..--'``-,_\_
+                        |o/ ` :,.)_`>
+                        :/ `     ||/)
+                        (_.).__,-` |\
+                        /( `.``   `| :
+                        \'`-.)  `  ; ;
+                        | `       /-<
+                        |     `  /   `.
+         ,-_-..____     /|  `    :__..-'\
+        /,'-.__\\  ``-./ :`      ;       \
+        `\ `\  `\\  \ :  (   `  /  ,   `. \
+          \` \   \\   |  | `   :  :     .\ \
+           \ `\_  ))  :  ;     |  |      ): :
+          (`-.-'\ ||  |\ \   ` ;  ;       | |
+           \-_   `;;._   ( `  /  /_       | |
+            `-.-.// ,'`-._\__/_,'         ; |
+               \:: :     /     `     ,   /  |
+                || |    (        ,' /   /   |
+                ||                ,'   / SSt|
+                
+        '''
 
     def show_email(self):
         if self.company != '':
@@ -34,6 +63,9 @@ class Profile():
 
     def show_myart(self):
         print(self.art)
+
+    def show_gandalf(self):
+        print(self.art2)
 
     def show_hobby(self):
         if len(self.hobby) != 0:
@@ -52,4 +84,5 @@ if __name__ == '__main__':
     my.show_email()
     my.show_myart()
     my.show_hobby()
+    my.show_gandalf()
     # help(my)
